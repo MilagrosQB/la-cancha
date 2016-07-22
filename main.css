@@ -1,0 +1,78 @@
+*{
+	box-sizing: border-box;
+	margin:0px;
+	padding:0px;
+}
+.campo{
+	background:#8CB27C;
+	width: 800px;
+	height: 500px;
+}
+.area{
+	border:2px solid white;
+	width: 770px;
+	height: 470px;
+	position: relative;
+	top:10px;
+	right:10px;
+	bottom:10px;
+	left:10px;
+}
+.zona-norte{
+	border-top:2px solid white;
+	border-right:2px solid white;
+	border-bottom:2px solid white;
+	border-left:0px;
+	width: 100px;
+	height: 180px;
+	position:absolute;
+	top:130px;
+	right:0px;
+	bottom:0px;
+	left:0px;
+}
+.zona-sur{
+	border-top:2px solid white;
+	border-right:0px solid white;
+	border-bottom:2px solid white;
+	border-left:2px solid white;
+	width: 100px;
+	height: 180px;
+	position:absolute;
+	top:130px;
+	right:0px;
+	bottom:0px;
+	left:666px;
+}
+.centro {
+	width:180px;
+	height:180px;
+	border:2px solid white;
+	border-radius: 50%;
+	position:absolute;
+	top:130px;
+	right:0px;
+	bottom:0px;
+	left:310px;
+}
+.balon-norte {
+	position:absolute;
+	top:130px;
+	right:0px;
+	bottom:0px;
+	left:87px;
+}
+.balon-sur {
+	position:absolute;
+	top:280px;
+	right:0px;
+	bottom:0px;
+	left:640px;
+}
+.balon-centro {
+	position:absolute;
+	top:80px;
+	right:0px;
+	bottom:0px;
+	left:415px;
+}
